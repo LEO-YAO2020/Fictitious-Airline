@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Manage Booking</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jQuery/jQuery3.5.1.js"></script>
+    <script src="js/Bookinginfo.js"></script>
+</head>
+<body class="bg">
+<div id="header">
+    <div class="logo">&nbspFictitious&nbspAirline</div>
+</div>
+<div style="margin-top: 55px"></div>
+<div class="auto" style="text-align: center">
+    <h2>Please enter your information</h2>
+</div>
+<center>
+    <div style="margin-top: 10%"></div>
+    <div class="book">
+        <form id="form3" method="get" action="../Controller/CheckBooking.php" style="padding-top: 10%">
+            <table>
+                <tr>
+                    Name
+                    <td><input type="text" name="name" id="name" placeholder="Enter your username"/><br>
+                        <span id="nameSpan"></span>
+                    </td>
+                </tr>
+            </table>
+            <br><br><br>
+            <table>
+                <tr>
+                    Reference Number
+                    <td><input type="text" name="reference" id="reference"
+                               placeholder="Enter your reference number"/><br>
+                        <span id="referenceSpan"></span>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <div style="margin-top: 5%"></div>
+    <input style="background-color: #488fce;color: white;height: 30px;width: 80px" type="button" value="Back"
+           id="back"/>
+    <input style="margin-left: 60%;background-color: #488fce;color: white;height: 30px;width: 80px" type="button"
+           value="Search"
+           id="continue"/>
+</center>
+</body>
+</html>
