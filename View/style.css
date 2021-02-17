@@ -101,6 +101,7 @@ a:hover {
 .bg {
     background-image: url("GettyImages-912360406.jpg");
     background-repeat: no-repeat;
+    background-size: 100%;
 }
 .book {
     background-color: cornflowerblue;
